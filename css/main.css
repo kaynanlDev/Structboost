@@ -1,5 +1,6 @@
-:root{
+/* COLORS */
 
+:root{
     --pink-1: #f67acb;
     --pink-2: #cf62a9;
     --pink-3: #9d457f;
@@ -15,6 +16,7 @@
 
 }
 
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -46,6 +48,7 @@ html{
     font-size: 62.5%;
 }
 
+/* TYPOGRAPHY */
 h1,h2,h3,h4,h5,h6{
     font-family: 'sora', sans-serif;
     line-height: 120%;
@@ -81,9 +84,98 @@ p{
     line-height: 150%;
 }
 
+/* GRID */
 .container{
     width: 100%;
     max-width: 115.8rem;
     margin: 0 auto;
     padding: 0 2.4rem;
+}
+
+/* COMPONENTES */
+
+.btn-primary{
+    border: none;
+    cursor: pointer;
+    padding: 1.6rem 2.4rem;
+    background-color: var(--pink-1);
+    color: var(--gray-9);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.48px;
+    transition: background-color .3s ease;
+}
+.btn-primary:hover{
+    background-color: var(--pink-2);
+}
+
+.lg{
+    padding: 2.3rem 2.4rem;
+    font-size: 1.8rem;
+}
+
+.btn-white{
+    background-color: #fff;
+}
+.btn-white:hover{
+    background-color: var(--gray-9);
+    color: #fff;
+}
+
+.item-card{
+    flex-grow: 1;
+    max-width: 38.4rem;
+}
+.item-icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+}
+
+.item-info p{
+    margin-top: 0.8rem;
+    color: var(--gray-6);
+}
+
+.post-card{
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.02);
+    padding: 2.4rem;
+}
+.post-category{
+    display: inline-block;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 0.8rem 2.2rem;
+    color: var(--gray-1);
+    font-family: 'sora', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 1.26rem;
+    text-transform: uppercase;
+    margin-bottom: 4.5rem;
+}
+
+.post-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6.4rem;
+}
+.post-info{
+    width: 100%;
+    max-width: 48.2rem;
+}
+
+.post-info p{
+    font-size: 1.6rem;
+    color: var(--gray-6);
+    margin-top: 0.8rem;
+    background-color: transparent;
 }
