@@ -284,3 +284,23 @@ header nav ul li a:hover{
 .ilustra{
    padding: 0 2.4rem;
 }
+
+/* DIGITAL */
+
+.s-digital{
+    width: 100%;
+    padding-top: 12.8rem;
+}
+
+.s-digital h3{
+    max-width: 53.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 6.4rem;
+}
+.s-digital ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-8);
+    padding-bottom: 12.8rem;
+}
