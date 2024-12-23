@@ -304,3 +304,45 @@ header nav ul li a:hover{
     border-bottom: 1px solid var(--gray-8);
     padding-bottom: 12.8rem;
 }
+
+/* ART */
+
+.s-art{
+    padding: 12.8rem;
+}
+
+.art-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6.4rem;
+}
+.art-text h3{
+    letter-spacing: -1.2px;
+    font-weight: 600;
+}
+.art-text p{
+    color: var(--gray-6);
+    letter-spacing: -0.54px;
+    margin-top: 1.6rem;
+}
+
+.art-text .left{
+    max-width: 53.9rem;
+}
+.art-text .left p{
+    max-width: 45.2rem;
+}
+.art-text .right{
+    max-width: 42.9rem;
+}
+
+.art-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
+}
+
+.art-cards .post-card:first-child{
+    grid-column: span 2;
+}

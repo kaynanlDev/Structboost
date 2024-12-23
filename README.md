@@ -1,2 +1,2 @@
 # Structboost
- desenvolvimento de uma landing page
+ desenvolvimento de uma landing page do StructBoost
