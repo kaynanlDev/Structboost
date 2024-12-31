@@ -195,7 +195,11 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-
+.btn-mobile{
+    display: none;
+    border: none;
+    cursor: pointer;
+}
 nav{
     display: flex;
     align-items: center;
@@ -437,4 +441,19 @@ footer .main{
     color: var(--gray-6);
 }
 
+
+@media(max-width: 768px){
+    header .btn-mobile{
+        display: block;
+    }
+    header nav{
+        display: none;
+    }
+}
+
+@media(max-width: 568px){
+    header .logo{
+        max-width: 16rem;
+    }
+}
 
